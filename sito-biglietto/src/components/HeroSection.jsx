@@ -12,6 +12,7 @@ const HeroSection = () => {
                 window.open("https://www.facebook.com/aeggioielli", "_blank")
               }
               className="btn-link"
+              id="btn_facebook"
             >
               <img
                 src="https://www.svgrepo.com/show/448224/facebook.svg"
@@ -25,6 +26,7 @@ const HeroSection = () => {
                 window.open("https://www.instagram.com/aeg_gioielli/", "_blank")
               }
               className="btn-link"
+              id="btn_instagram"
             >
               <img
                 src="https://www.svgrepo.com/show/452229/instagram-1.svg"
@@ -38,6 +40,7 @@ const HeroSection = () => {
                 window.open("https://www.tiktok.com/@aeg_gioielli", "_blank")
               }
               className="btn-link"
+              id="btn_tiktok"
             >
               <img
                 src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/tiktok-rounded-square-icon.png"
