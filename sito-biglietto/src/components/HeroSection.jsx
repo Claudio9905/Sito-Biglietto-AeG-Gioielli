@@ -18,6 +18,7 @@ const HeroSection = () => {
                 alt="logo-facebook"
                 className="img-fluid"
               />
+              <h4>Facebook</h4>
             </Button>
             <Button
               onClick={() =>
@@ -30,6 +31,7 @@ const HeroSection = () => {
                 alt="logo-instagram"
                 className="img-fluid"
               />
+              <h4>Instagram</h4>
             </Button>
             <Button
               onClick={() =>
@@ -42,6 +44,7 @@ const HeroSection = () => {
                 alt="logo-tiktok"
                 className="img-fluid"
               />
+              <h4>TikTok</h4>
             </Button>
           </Col>
           <Col xs={12} md={4} id="maps_position">
