@@ -24,3 +24,19 @@ body {
 
 /* ---------------------------------------------------------------------------------- */
 /* CSS del componente IntroCard */
+
+/* CSS del componente HeroSection */
+
+#hero_section_container {
+  padding: 1em;
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  box-shadow: none;
+
+  & img {
+    width: 1.8em;
+  }
+}

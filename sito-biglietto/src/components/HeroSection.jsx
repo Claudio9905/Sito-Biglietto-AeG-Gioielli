@@ -4,12 +4,45 @@ import Button from "react-bootstrap/Button";
 const HeroSection = () => {
   return (
     <>
-      <Container>
+      <Container id="hero_section_container">
         <Row>
           <Col xs={12} md={4} id="social_zone">
-            <Button>Facebook</Button>
-            <Button>Instagram</Button>
-            <Button>TikTok</Button>
+            <Button
+              onClick={() =>
+                window.open("https://www.facebook.com/aeggioielli", "_blank")
+              }
+              className="btn-link"
+            >
+              <img
+                src="https://www.svgrepo.com/show/448224/facebook.svg"
+                alt="logo-facebook"
+                className="img-fluid"
+              />
+            </Button>
+            <Button
+              onClick={() =>
+                window.open("https://www.instagram.com/aeg_gioielli/", "_blank")
+              }
+              className="btn-link"
+            >
+              <img
+                src="https://www.svgrepo.com/show/452229/instagram-1.svg"
+                alt="logo-instagram"
+                className="img-fluid"
+              />
+            </Button>
+            <Button
+              onClick={() =>
+                window.open("https://www.tiktok.com/@aeg_gioielli", "_blank")
+              }
+              className="btn-link"
+            >
+              <img
+                src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/tiktok-rounded-square-icon.png"
+                alt="logo-tiktok"
+                className="img-fluid"
+              />
+            </Button>
           </Col>
           <Col xs={12} md={4} id="maps_position">
             <iframe
