@@ -1,14 +1,19 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
+import LogoNegozio from "../assets/Logo-AeG.png";
 
 const IntroCard = () => {
   return (
     <>
-      <Container>
-        <Row className="d-flex justify-content-center text-center">
+      <Container id="intro-card-container">
+        <Row className="d-flex justify-content-center text-center gap-4 p-5 position-relative z-2">
           <Col xs={12} md={4}>
             <div>
-              <img src="" alt="Logo Negozio" className="img-fluid"></img>
+              <img
+                src={LogoNegozio}
+                alt="Logo Negozio"
+                className="img-fluid w-50 mt-5"
+              ></img>
             </div>
           </Col>
           <Col xs={12} md={4}>
