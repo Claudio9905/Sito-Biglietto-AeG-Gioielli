@@ -12,7 +12,7 @@ const IntroCard = () => {
               <img
                 src={LogoNegozio}
                 alt="Logo Negozio"
-                className="img-fluid w-50 mt-5"
+                className="img-fluid w-50 mt-3"
               ></img>
             </div>
           </Col>
@@ -22,7 +22,7 @@ const IntroCard = () => {
           <Col xs={12} md={4}>
             <Button
               onClick={() => window.open("https://gioielliaeg.com/", "_blank")}
-              variant="primary"
+              id="btn-onSite"
             >
               Visita il sito
             </Button>
