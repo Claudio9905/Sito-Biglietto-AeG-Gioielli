@@ -15,7 +15,12 @@ const IntroCard = () => {
             <h3>Oro, passione, artigianalità dal 1980</h3>
           </Col>
           <Col xs={12} md={4}>
-            <Button variant="primary">Visita il sito</Button>
+            <Button
+              onClick={() => window.open("https://gioielliaeg.com/", "_blank")}
+              variant="primary"
+            >
+              Visita il sito
+            </Button>
           </Col>
         </Row>
       </Container>
