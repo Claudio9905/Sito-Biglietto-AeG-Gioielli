@@ -92,3 +92,36 @@ body {
     animation: strapShine 4s linear infinite;
   }
 }
+/* CSS del componente HeroSection */
+
+#hero_section_container {
+  padding: 1em;
+}
+
+#social_zone {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn-link {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 9em;
+  background: none;
+  border: none;
+  box-shadow: none;
+  text-decoration: none !important;
+
+  & img {
+    width: 1.8em;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  & h4 {
+    font-size: 0.8em;
+    margin: 0;
+  }
+}
