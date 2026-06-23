@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <>
       <Container id="hero_section_container">
-        <Row>
+        <Row className="d-flex flex-column align-items-center justify-content-center">
           <Col xs={12} md={4} id="social_zone">
             <Button
               onClick={() =>
@@ -51,11 +51,13 @@ const HeroSection = () => {
             </Button>
           </Col>
           <Col xs={12} md={4} id="maps_position">
+            <h4>Via Napoli, 269, 80022 Arzano NA</h4>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2728.8369034457914!2d14.265189699999999!3d40.905594400000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b077512fcb027%3A0x3872f1fd14720d7c!2sA%26G%20Gioielli!5e1!3m2!1sit!2sit!4v1782134100354!5m2!1sit!2sit"
-              width="60"
-              height="45"
+              width="330"
+              height="150"
               loading="lazy"
+              id="maps_element"
             ></iframe>
           </Col>
           <Col xs={12} md={4} id="contact_info_whatsapp">
