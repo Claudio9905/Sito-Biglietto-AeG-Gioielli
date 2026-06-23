@@ -11,7 +11,7 @@ const HeroSection = () => {
               onClick={() =>
                 window.open("https://www.facebook.com/aeggioielli", "_blank")
               }
-              className="btn-link"
+              className="btn-link-social"
               id="btn_facebook"
             >
               <img
@@ -25,7 +25,7 @@ const HeroSection = () => {
               onClick={() =>
                 window.open("https://www.instagram.com/aeg_gioielli/", "_blank")
               }
-              className="btn-link"
+              className="btn-link-social"
               id="btn_instagram"
             >
               <img
@@ -39,7 +39,7 @@ const HeroSection = () => {
               onClick={() =>
                 window.open("https://www.tiktok.com/@aeg_gioielli", "_blank")
               }
-              className="btn-link"
+              className="btn-link-social"
               id="btn_tiktok"
             >
               <img
@@ -62,7 +62,20 @@ const HeroSection = () => {
           </Col>
           <Col xs={12} md={4} id="contact_info_whatsapp">
             <h4>Per info e appuntamenti</h4>
-            <Button>WhatsApp</Button>
+            <Button
+              onClick={() =>
+                window.open("https://wa.me/393784165164", "_blank")
+              }
+              id="btn_whatsapp"
+            >
+              <img
+                src="https://www.svgrepo.com/show/354560/whatsapp.svg"
+                alt="logo di whatsapp"
+                className="img-fluid"
+                id="link-whatsapp-svg"
+              />
+              <h4 className="m-0">+39 3784165164</h4>
+            </Button>
           </Col>
         </Row>
       </Container>
