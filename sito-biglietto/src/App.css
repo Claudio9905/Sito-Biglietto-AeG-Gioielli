@@ -35,6 +35,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 1em;
 
   & #btn_facebook {
     border: 1px solid rgba(255, 255, 255, 0.407);
@@ -79,4 +80,47 @@ body {
     margin: 0;
     color: white;
   }
+}
+
+#maps_position {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  position: relative;
+
+  & h4 {
+    font-size: 1em;
+    margin-top: 1em;
+  }
+
+  &::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 25%;
+
+    width: 50%;
+    height: 1px;
+    border: 1px solid rgb(191, 169, 48);
+  }
+
+  &::after {
+    content: " ";
+    position: absolute;
+    top: 13.5em;
+    left: 25%;
+
+    width: 50%;
+    height: 1px;
+    border: 1px solid rgb(191, 169, 48);
+  }
+}
+
+#maps_element {
+  border-radius: 30px;
+  border: 3px solid rgb(202, 176, 31);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.37);
 }
