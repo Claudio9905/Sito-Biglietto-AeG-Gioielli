@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <>
       <Container id="container_footer">
-        <Row>
+        <Row className="d-flex flex-column gap-3">
           <Col
-            xs={6}
-            className="d-flex justify-content-center align-items-center"
+            xs={12}
+            className="d-flex justify-content-center align-items-center gap-3"
           >
             <div
               id="div_logo_footer"
@@ -20,22 +20,28 @@ const Footer = () => {
                 className="img-fluid w-50"
               />
             </div>
+            <div>
+              <h4> Copyright © 2026 A&G Gioielli</h4>
+              <h4>P. IVA IT07187881219</h4>
+              <h4>info@gioielliaeg.com</h4>
+            </div>
           </Col>
-          <Col xs={6}>
-            <h4>P. IVA IT07187881219</h4>
-            <h4>info@gioielliaeg.com</h4>
+          <span className="span-footer"></span>
+          <Col
+            xs={12}
+            className="d-flex justify-content-around align-items-center"
+          >
             <a
               href="https://www.gioielliaeg.com/privacy-policy-ue/?_gl=1*71kuwi*_ga*MTkxODQ4MDM1MS4xNzgxNTQ1MjM1*_ga_GW90WWK738*czE3ODIxMzU4MzkkbzQkZzAkdDE3ODIxMzU4NDMkajU2JGwwJGgw"
               target="_blank"
             >
-              Privacy Policy
+              🔘Privacy Policy
             </a>
-            <br />
             <a
               href="https://www.gioielliaeg.com/termini-e-condizioni/?_gl=1*71kuwi*_ga*MTkxODQ4MDM1MS4xNzgxNTQ1MjM1*_ga_GW90WWK738*czE3ODIxMzU4MzkkbzQkZzAkdDE3ODIxMzU4NDMkajU2JGwwJGgw"
               target="_blank"
             >
-              Termini e Condizioni
+              🔘Termini e Condizioni
             </a>
           </Col>
         </Row>
