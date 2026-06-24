@@ -131,7 +131,7 @@ body {
   display: flex;
   gap: 20px;
   will-change: transform;
-  animation: scrolling 25s linear infinite;
+  animation: scrolling 30s linear infinite;
 }
 
 @keyframes scrolling {
