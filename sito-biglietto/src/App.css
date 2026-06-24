@@ -260,6 +260,28 @@ body {
   align-items: center;
 }
 
+.div-title-products {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  & .span-target1 {
+    position: absolute;
+    top: 1em;
+    left: 2em;
+    width: 15%;
+    border: 1px solid rgb(255, 217, 0);
+  }
+
+  & .span-target2 {
+    position: absolute;
+    top: 1em;
+    right: 2em;
+    width: 15%;
+    border: 1px solid rgb(255, 217, 0);
+  }
+}
+
 .carousel {
   border-left: 2px solid rgba(255, 255, 255, 0.607);
   border-right: 2px solid rgba(255, 255, 255, 0.579);
