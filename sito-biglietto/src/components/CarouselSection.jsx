@@ -41,10 +41,10 @@ const CarouselSection = () => {
     <>
       <Container className="mb-5 " id="container-carousel">
         <Row id="row_aboutUs">
-          <Col xs={12} md={6}></Col>
+          <Col xs={12} md={12}></Col>
         </Row>
         <Row id="row_products">
-          <Col id="col-carousel" xs={12} md={6}>
+          <Col id="col-carousel" xs={12} md={12}>
             <div className="div-title-products">
               <span className="span-target1"></span>
               <h4 className="text-center">La Nostra Collezione</h4>
