@@ -44,7 +44,7 @@ const CarouselSection = () => {
           <Col xs={12} md={6}></Col>
         </Row>
         <Row id="row_products">
-          <Col id="carousel-products" xs={12} md={6}>
+          <Col id="col-carousel" xs={12} md={6}>
             <div className="carousel ">
               <div className="group ">
                 <div className="card"></div>
