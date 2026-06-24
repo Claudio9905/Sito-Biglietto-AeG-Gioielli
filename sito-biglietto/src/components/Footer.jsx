@@ -17,13 +17,13 @@ const Footer = () => {
               <img
                 src={LogoSito}
                 alt="Logo del negozio"
-                className="img-fluid w-50"
+                className="img-fluid w-75"
               />
             </div>
             <div>
               <h4> Copyright © 2026 A&G Gioielli</h4>
               <h4>P. IVA IT07187881219</h4>
-              <h4>info@gioielliaeg.com</h4>
+              <h4>📧 info@gioielliaeg.com</h4>
             </div>
           </Col>
           <span className="span-footer"></span>
