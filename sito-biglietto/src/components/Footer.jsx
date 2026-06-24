@@ -30,6 +30,7 @@ const Footer = () => {
             >
               Privacy Policy
             </a>
+            <br />
             <a
               href="https://www.gioielliaeg.com/termini-e-condizioni/?_gl=1*71kuwi*_ga*MTkxODQ4MDM1MS4xNzgxNTQ1MjM1*_ga_GW90WWK738*czE3ODIxMzU4MzkkbzQkZzAkdDE3ODIxMzU4NDMkajU2JGwwJGgw"
               target="_blank"

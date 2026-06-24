@@ -234,12 +234,17 @@ body {
 
   & h4 {
     font-size: 1em;
-    color: white;
+    color: rgb(173, 173, 173);
   }
 
   & a {
     font-size: 1em;
     text-decoration: none;
-    color: white;
+    color: rgb(173, 173, 173);
+    &:hover {
+      color: white;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
   }
 }
