@@ -25,6 +25,7 @@ const Footer = () => {
             xs={6}
             className="d-flex flex-column justify-content-center align-items-center"
           >
+            <h4>© 2026 A&G Gioielli – Tutti i diritti riservati</h4>
             <h4>P. IVA IT07187881219</h4>
             <h4>info@gioielliaeg.com</h4>
             <a
