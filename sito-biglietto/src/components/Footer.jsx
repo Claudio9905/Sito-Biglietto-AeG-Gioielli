@@ -21,7 +21,10 @@ const Footer = () => {
               />
             </div>
           </Col>
-          <Col xs={6}>
+          <Col
+            xs={6}
+            className="d-flex flex-column justify-content-center align-items-center"
+          >
             <h4>P. IVA IT07187881219</h4>
             <h4>info@gioielliaeg.com</h4>
             <a
@@ -30,7 +33,6 @@ const Footer = () => {
             >
               Privacy Policy
             </a>
-            <br />
             <a
               href="https://www.gioielliaeg.com/termini-e-condizioni/?_gl=1*71kuwi*_ga*MTkxODQ4MDM1MS4xNzgxNTQ1MjM1*_ga_GW90WWK738*czE3ODIxMzU4MzkkbzQkZzAkdDE3ODIxMzU4NDMkajU2JGwwJGgw"
               target="_blank"
