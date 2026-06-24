@@ -24,3 +24,24 @@ body {
 
 /* ---------------------------------------------------------------------------------- */
 /* CSS del componente IntroCard */
+
+/* CSS del componente Footer */
+
+#container_footer {
+  background-color: black;
+
+  & #div_logo_footer {
+    border-right: 1px solid rgba(255, 255, 255, 0.525);
+  }
+
+  & h4 {
+    font-size: 1em;
+    color: white;
+  }
+
+  & a {
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+  }
+}
