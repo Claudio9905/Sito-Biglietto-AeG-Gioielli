@@ -168,7 +168,7 @@ body {
 
     width: 50%;
     height: 1px;
-    border: 1px solid rgb(202, 176, 31);
+    border: 1px solid #ffce66;
   }
 
   &::after {
@@ -179,13 +179,13 @@ body {
 
     width: 50%;
     height: 1px;
-    border: 1px solid rgb(202, 176, 31);
+    border: 1px solid #ffce66;
   }
 }
 
 #maps_element {
   border-radius: 30px;
-  border: 3px solid rgb(202, 176, 31);
+  border: 3px solid #ffce66;
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.37);
 }
 
