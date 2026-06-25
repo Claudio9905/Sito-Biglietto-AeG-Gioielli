@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import LogoNegozio from "../assets/logo-AeG.png";
+import LogoNegozio from "../assets/Logo-AeG.png";
 
 const IntroCard = () => {
   return (
