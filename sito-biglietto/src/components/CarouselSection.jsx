@@ -35,6 +35,11 @@ const CarouselSection = () => {
       <Container className="mb-5 " id="container-carousel">
         <Row id="row_aboutUs">
           <Col xs={12} md={12}>
+            <div className="div-title-products">
+              <span className="span-target1"></span>
+              <h4 className="text-center">Chi Siamo</h4>
+              <span className="span-target2"></span>
+            </div>
             <div id="carousel_aboutUs">
               <AnimatePresence>
                 <motion.img
@@ -70,9 +75,9 @@ const CarouselSection = () => {
         <Row id="row_products">
           <Col id="col-carousel" xs={12} md={12}>
             <div className="div-title-products">
-              <span className="span-target1"></span>
+              <span className="span-target3"></span>
               <h4 className="text-center">La Nostra Collezione</h4>
-              <span className="span-target2"></span>
+              <span className="span-target4"></span>
             </div>
             <div className="carousel ">
               <div className="group ">
