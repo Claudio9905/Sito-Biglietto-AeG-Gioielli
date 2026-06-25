@@ -17,11 +17,11 @@ body {
   box-sizing: border-box;
 }
 
-.divided-section {
+/* .divided-section {
   display: block;
   width: 100%;
   border: 1px solid #ffce66;
-}
+} */
 
 /* ---------------------------------------------------------------------------------- */
 /* CSS del componente IntroCard */
