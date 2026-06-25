@@ -8,7 +8,9 @@ function App() {
   return (
     <>
       <IntroCard />
+      <span className="divided-section"></span>
       <HeroSection />
+      <span className="divided-section"></span>
       <CarouselSection />
       <Footer />
     </>

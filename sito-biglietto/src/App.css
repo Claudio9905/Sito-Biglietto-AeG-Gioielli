@@ -1,0 +1,486 @@
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Marcellus SC", serif !important;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* .divided-section {
+  display: block;
+  width: 100%;
+  border: 1px solid #ffce66;
+} */
+
+/* ---------------------------------------------------------------------------------- */
+/* CSS del componente IntroCard */
+
+@keyframes strapShine {
+  from {
+    background-position: -200%;
+  }
+  to {
+    background-position: 200%;
+  }
+}
+
+#intro-card-container {
+  background-image: url("./assets/Orafi-dal-1980-Immagine-Home-modificata-1.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  position: relative;
+
+  & h3 {
+    font-size: 1.1em;
+    color: white;
+  }
+
+  &::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.448);
+    z-index: 1;
+  }
+}
+
+#btn-onSite {
+  background-color: black;
+  border-color: rgba(255, 255, 255, 0.201);
+  border-radius: 0px;
+  position: relative;
+
+  &:hover {
+    background-color: #ffce66;
+    color: black;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.427);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s cubic-bezier(0.5, 0, 0, 1);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+      120deg,
+      transparent 20%,
+      rgba(255, 255, 255, 0.4) 40%,
+      transparent 60%
+    );
+
+    background-size: 200%;
+    animation: strapShine 4s linear infinite;
+  }
+}
+/* CSS del componente HeroSection */
+
+#hero_section_container {
+  padding: 1em;
+}
+
+#social_zone {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1em;
+
+  & #btn_facebook {
+    border: 1px solid rgba(255, 255, 255, 0.407);
+    border-radius: 20%;
+    background-image: linear-gradient(26deg, #3659a4, #8b9dc3);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.301);
+  }
+
+  & #btn_instagram {
+    border: 1px solid rgba(255, 255, 255, 0.407);
+    border-radius: 20%;
+    background-image: linear-gradient(26deg, #a46f34, #bb3271);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.301);
+  }
+
+  & #btn_tiktok {
+    border: 1px solid rgba(255, 255, 255, 0.407);
+    border-radius: 20%;
+    background-image: linear-gradient(26deg, #69c9d0, #ee1d52);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.301);
+  }
+}
+
+.btn-link-social {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 6.5em;
+  background: none;
+  border: none;
+  box-shadow: none;
+  text-decoration: none !important;
+
+  & img {
+    width: 1.8em;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  & h4 {
+    font-size: 0.8em;
+    margin: 0;
+    color: white;
+  }
+}
+
+#maps_position {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  position: relative;
+
+  & h4 {
+    font-size: 1em;
+    margin-top: 1em;
+    text-align: center;
+  }
+
+  &::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 25%;
+
+    width: 50%;
+    height: 1px;
+    border: 1px solid #ffce66;
+  }
+
+  &::after {
+    content: " ";
+    position: absolute;
+    top: 13.5em;
+    left: 25%;
+
+    width: 50%;
+    height: 1px;
+    border: 1px solid #ffce66;
+  }
+}
+
+#maps_element {
+  border-radius: 30px;
+  border: 3px solid #ffce66;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.37);
+}
+
+#contact_info_whatsapp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+
+  & h4 {
+    font-size: 1em;
+  }
+}
+
+#btn_whatsapp {
+  display: flex;
+  width: 12em;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 0.4em;
+  background-image: linear-gradient(45deg, #588536, #54c356b9);
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.17);
+
+  & #link-whatsapp-svg {
+    width: 1.4em;
+    margin-left: 0.3em;
+  }
+}
+/* CSS del componente Footer */
+
+#container_footer {
+  background-color: black;
+  padding: 2em;
+
+  & h4 {
+    font-size: 1em;
+    color: rgb(173, 173, 173);
+    text-align: center;
+  }
+
+  & a {
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+    &:hover {
+      color: white;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+
+#div_logo_footer {
+  width: 30%;
+}
+
+.span-footer {
+  border: 1px solid rgba(255, 255, 255, 0.393);
+}
+
+/* CSS del componente CarouselSection */
+
+/* Carosello dei prodotti */
+#container-carousel {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-title-products {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  & .span-target3 {
+    position: absolute;
+    top: 1em;
+    left: 0.8em;
+    width: 20%;
+    border: 1px solid #ffce66;
+  }
+
+  & h4 {
+    margin-bottom: 0.7em;
+  }
+
+  & .span-target4 {
+    position: absolute;
+    top: 1em;
+    right: 0.8em;
+    width: 20%;
+    border: 1px solid #ffce66;
+  }
+}
+
+.carousel {
+  border-left: 2px solid rgba(255, 255, 255, 0.607);
+  border-right: 2px solid rgba(255, 255, 255, 0.579);
+  margin: 0 auto;
+  gap: 20px;
+  padding: 20px 0;
+  width: 26em;
+  overflow: hidden;
+  display: flex;
+  > * {
+    flex: 0 0 100%;
+  }
+  /* &:hover .group {
+    animation-play-state: paused;
+  } */
+}
+
+.card {
+  width: 300px;
+  color: white;
+  border-radius: 24px;
+  box-shadow: rgba(0, 0, 0, 0.29) 0px 0px 10px 1px;
+  padding: 5px;
+  font-size: xx-large;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+
+  &:nth-child(1) {
+    background: #5d34f2;
+    background-image: url("./assets/Anello-carousel.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  &:nth-child(2) {
+    background: #5d34f2;
+    background-image: url("./assets/Anello2-carousel.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  &:nth-child(3) {
+    background: #4300da;
+    background-image: url("./assets/Bracciale-carousel.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  &:nth-child(4) {
+    background: #4300da;
+    background-image: url("./assets/Collana-carousel.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  &:nth-child(5) {
+    background: #4300da;
+    background-image: url("./assets/orecchini-carousel.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  &:nth-child(6) {
+    background: #4300da;
+    background-image: url("./assets/Orologio-carousel.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.group {
+  display: flex;
+  gap: 20px;
+  will-change: transform;
+  animation: scrolling 30s linear infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Carosello AboutUs */
+
+.span-target1 {
+  position: absolute;
+  top: 1em;
+  left: 0em;
+  width: 32%;
+  border: 1px solid #ffce66;
+}
+
+.span-target2 {
+  position: absolute;
+  top: 1em;
+  right: 0em;
+  width: 32%;
+  border: 1px solid #ffce66;
+}
+
+#carousel_aboutUs {
+  position: relative;
+  overflow: hidden;
+  height: 80vh;
+  width: 100%;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  box-shadow: 0px 0px 10px 1px #00000054;
+
+  & #div_content {
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    padding: 1em;
+    z-index: 5;
+    transition: all 0.6s cubic-bezier(0.5, 0, 0, 1);
+
+    & h1 {
+      text-align: center;
+      color: white;
+      letter-spacing: 2px;
+      position: relative;
+      padding: 1em;
+      margin-bottom: 0;
+      font-size: 1em;
+    }
+
+    & p {
+      text-align: center;
+      color: white;
+      letter-spacing: 2px;
+      position: relative;
+      padding: 1em;
+      margin-bottom: 0;
+      font-size: 0.8em;
+    }
+  }
+
+  &::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(354deg, black, transparent);
+  }
+}
+
+#row_aboutUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.carousel-text {
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    opacity 1s cubic-bezier(0.5, 0, 0, 1),
+    transform 1s cubic-bezier(0.5, 0, 0, 1);
+}
+
+.carousel-text.fade {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.3s cubic-bezier(0.5, 0, 0, 1);
+}
+
+.card-slide {
+  min-width: 100%;
+  & img {
+    object-fit: contain;
+    width: 100%;
+  }
+}
