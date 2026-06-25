@@ -275,16 +275,20 @@ body {
   & .span-target3 {
     position: absolute;
     top: 1em;
-    left: 2em;
-    width: 15%;
+    left: 0.8em;
+    width: 20%;
     border: 1px solid #ffce66;
+  }
+
+  & h4 {
+    margin-bottom: 0.7em;
   }
 
   & .span-target4 {
     position: absolute;
     top: 1em;
-    right: 2em;
-    width: 15%;
+    right: 0.8em;
+    width: 20%;
     border: 1px solid #ffce66;
   }
 }
@@ -400,6 +404,7 @@ body {
   height: 80vh;
   width: 100%;
   margin-bottom: 2em;
+  margin-top: 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
