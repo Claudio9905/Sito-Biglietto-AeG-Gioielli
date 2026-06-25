@@ -1,11 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { AnimatePresence, motion } from "framer-motion";
-import ScrollReveal from "scrollreveal";
 import { imagesSlideCarousel } from "../data/data";
-import { useRef, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const CarouselSection = () => {
-  const boxRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [animateText, setAnimateText] = useState(false);
 
@@ -18,14 +16,6 @@ const CarouselSection = () => {
         setAnimateText(false);
       }, 600);
     }, 7000);
-
-    ScrollReveal().reveal(boxRef.current, {
-      duration: 2000,
-      distance: "50px",
-      origin: "right",
-      easing: "cubic-bezier(0.5, 0, 0, 1)",
-      reset: true,
-    });
 
     return () => clearInterval(interval);
   });
