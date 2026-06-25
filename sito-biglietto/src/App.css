@@ -150,6 +150,10 @@ body {
 }
 
 #maps_position {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 2em;
   margin-bottom: 2em;
   position: relative;
