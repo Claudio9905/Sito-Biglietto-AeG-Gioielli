@@ -19,7 +19,7 @@ body {
 .divided-section {
   display: block;
   width: 100%;
-  border: 1px solid #c3935b;
+  border: 1px solid #ffce66;
 }
 
 /* ---------------------------------------------------------------------------------- */
@@ -46,7 +46,7 @@ body {
     top: 1em;
     left: 2em;
     width: 15%;
-    border: 1px solid #c3935b;
+    border: 1px solid #ffce66;
   }
 
   & .span-target4 {
@@ -54,7 +54,7 @@ body {
     top: 1em;
     right: 2em;
     width: 15%;
-    border: 1px solid #c3935b;
+    border: 1px solid #ffce66;
   }
 }
 
@@ -152,7 +152,7 @@ body {
   top: 1em;
   left: 0em;
   width: 32%;
-  border: 1px solid #c3935b;
+  border: 1px solid #ffce66;
 }
 
 .span-target2 {
@@ -160,7 +160,7 @@ body {
   top: 1em;
   right: 0em;
   width: 32%;
-  border: 1px solid #c3935b;
+  border: 1px solid #ffce66;
 }
 
 #carousel_aboutUs {
