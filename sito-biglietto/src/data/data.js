@@ -2,7 +2,7 @@ import FirstImage from "../assets/Mimmo-foto-in-gioielleria-1.jpg";
 import SecondImage from "../assets/foto-artigianato-aboutUs.jpg";
 import ThirdImage from "../assets/negozio-inside.png";
 
-const imagesSlideCarousel = [
+export const imagesSlideCarousel = [
   {
     image: FirstImage,
     h1: "Dove l'arte orafa incontra l’autenticità",
@@ -19,5 +19,3 @@ const imagesSlideCarousel = [
     p: "Qui, ogni cliente viene accolto come un amico di famiglia e accompagnato nella scelta del gioiello perfetto.",
   },
 ];
-
-export default imagesSlideCarousel;
