@@ -23,7 +23,7 @@ body {
   border: 1px solid #ffce66;
 } */
 
-@media (max-width: 1024px) {
+@media (min-width: 768px) {
   .container {
     max-width: 100% !important;
   }
