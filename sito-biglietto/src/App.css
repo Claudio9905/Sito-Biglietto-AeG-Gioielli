@@ -245,6 +245,10 @@ body {
   #social_zone {
     width: 100%;
   }
+
+  #maps_position::after {
+    top: 14.5em;
+  }
 }
 
 /* CSS del componente Footer */
