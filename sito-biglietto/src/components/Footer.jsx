@@ -21,7 +21,7 @@ const Footer = () => {
                 id="logo_sito"
               />
             </div>
-            <div>
+            <div className="div-footer-content-desktop-view">
               <h4> Copyright © 2026 A&G Gioielli</h4>
               <h4>P. IVA IT07187881219</h4>
               <h4>📧 info@gioielliaeg.com</h4>
