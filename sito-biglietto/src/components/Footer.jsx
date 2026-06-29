@@ -18,6 +18,7 @@ const Footer = () => {
                 src={LogoSito}
                 alt="Logo del negozio"
                 className="img-fluid w-75"
+                id="logo_sito"
               />
             </div>
             <div>

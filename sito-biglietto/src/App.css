@@ -280,6 +280,16 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.393);
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  #div_logo_footer {
+    justify-content: space-between !important;
+  }
+
+  #logo_sito {
+    width: 50% !important;
+  }
+}
+
 /* CSS del componente CarouselSection */
 
 /* Carosello dei prodotti */
@@ -401,6 +411,12 @@ body {
   }
   100% {
     transform: translateX(-100%);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .carousel {
+    width: 100vw;
   }
 }
 
